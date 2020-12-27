@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Libra | Responsive Personal Blog Template</title>
+
+<!--Bootstrap Element and Grid System-->
+<link href="{% static 'polls/css/bootstrap.css' %}" rel="stylesheet" type="text/css">
+
+<!--Main Elements CSS-->
+<link href="{% static 'polls/css/style.css' %}" rel="stylesheet" type="text/css">
+
+<!--Font Awesome-->
+<link href="{% static 'polls/fonts/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+
+<!--FlexSlider CSS-->
+<link href="{% static 'polls/bower_components/FlexSlider/flexslider.css' %}" rel="stylesheet" type="text/css">
+
+<!--OWL Carousel CSS-->
+<link href="{% static 'polls/bower_components/owl.carousel/assets/owl.carousel.css' %}" rel="stylesheet" type="text/css">
+
+<!--Megafolio CSS-->
+<link href="{% static 'polls/bower_components/megafolio/css/settings.css' %}" rel="stylesheet" type="text/css">
+
+<!--FancyBox CSS-->
+<link rel="stylesheet" href="{% static 'polls/bower_components/fancybox/jquery.fancybox.css?v=2.1.5' %}" type="text/css" media="screen" />
+<link rel="stylesheet" href="{% static 'polls/bower_components/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5' %}" type="text/css" media="screen" />
+<link rel="stylesheet" href="{% static 'polls/bower_components/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7' %}" type="text/css" media="screen" />
+
+<!--Google Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800%7COpen+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic%7CCourgette&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<!--Color Scheme Setting-->
+<link href="{% static 'polls/css/color.css' %}" rel="stylesheet" type="text/css">
+
+</head>
